@@ -6,19 +6,19 @@ This project is an interactive Power BI Sales Analytics Dashboard built for Blin
 
 The Blinkit Sales Dashboard combines multiple datasets related to items, outlets, and sales to present:
 
-Total Sales
+- Total Sales
 
-Average Sales
+- Average Sales
 
-Number of Items
+- Number of Items
 
-Average Customer Rating
+- Average Customer Rating
 
-Outlet Size & Location Performance
+- Outlet Size & Location Performance
 
-Item Category Sales Contribution
+- Item Category Sales Contribution
 
-Trends in Outlet Establishment
+= Trends in Outlet Establishment
 
 This dashboard is fully interactive with slicers and navigation buttons to enhance user experience.
 
