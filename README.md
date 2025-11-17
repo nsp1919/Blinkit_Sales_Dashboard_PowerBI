@@ -18,7 +18,7 @@ The Blinkit Sales Dashboard combines multiple datasets related to items, outlets
 
 - Item Category Sales Contribution
 
-= Trends in Outlet Establishment
+- Trends in Outlet Establishment
 
 This dashboard is fully interactive with slicers and navigation buttons to enhance user experience.
 
