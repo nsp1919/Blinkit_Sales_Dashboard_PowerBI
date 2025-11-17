@@ -23,6 +23,7 @@ The Blinkit Sales Dashboard combines multiple datasets related to items, outlets
 This dashboard is fully interactive with slicers and navigation buttons to enhance user experience.
 
 📌 Key Features
+
 🔹 1. KPI Summary Cards
 
   - Total Sales: $1.20M
