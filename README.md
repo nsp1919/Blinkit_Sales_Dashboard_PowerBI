@@ -25,92 +25,92 @@ This dashboard is fully interactive with slicers and navigation buttons to enhan
 📌 Key Features
 🔹 1. KPI Summary Cards
 
-Total Sales: $1.20M
+  - Total Sales: $1.20M
 
-Avg Sales: $141
+  - Avg Sales: $141
 
-No of Items: 8523
+  - No of Items: 8523
 
-Avg Rating: 3.9
+  - Avg Rating: 3.9
 
 🔹 2. Filter Panel
 
 Users can slice the data by:
 
-Outlet Location Type
+  - Outlet Location Type
 
-Outlet Size
+  - Outlet Size
 
 Item Type
 
 🔹 3. Sales Trend Visualization
 
-A year-over-year line chart showing outlet establishment and revenue growth from 2010 to 2020.
+  - A year-over-year line chart showing outlet establishment and revenue growth from 2010 to 2020.
 
 🔹 4. Item Category Analysis
 
-Top Item Types (Fruits, Snacks, Household, Dairy, etc.)
+  - Top Item Types (Fruits, Snacks, Household, Dairy, etc.)
 
-Fat Content contribution (Low Fat vs Regular)
+  - Fat Content contribution (Low Fat vs Regular)
 
 🔹 5. Outlet Insights
 
 Visualization includes:
 
-Sales by Outlet Size (Small, Medium, High)
+  - Sales by Outlet Size (Small, Medium, High)
 
-Sales by Outlet Location (Tier 1, Tier 2, Tier 3)
+  - Sales by Outlet Location (Tier 1, Tier 2, Tier 3)
 
 Outlet Type Comparison Table with:
 
-Total Sales
+  - Total Sales
 
-Number of Items
+  - Number of Items
 
-Average Sales
+  - Average Sales
 
-Average Rating
+  - Average Rating
 
-Item Visibility
+  - Item Visibility
 
-🧠 DAX Measures Used
-Total Sales = SUM(Sales[Item_Outlet_Sales])
+🧠 DAX Measures Used :
+  - Total Sales = SUM(Sales[Item_Outlet_Sales])
 
-Avg Sales = AVERAGE(Sales[Item_Outlet_Sales])
+  - Avg Sales = AVERAGE(Sales[Item_Outlet_Sales])
 
-No Of Items = DISTINCTCOUNT(Items[Item_Identifier])
+  - No Of Items = DISTINCTCOUNT(Items[Item_Identifier])
 
-Avg Rating = AVERAGE(Items[Item_Fat_Content])
+  - Avg Rating = AVERAGE(Items[Item_Fat_Content])
 
 🗂️ Data Model
 
 The report uses a simple Star Schema:
 
-Fact Table: Sales
+- Fact Table: Sales
 
-Dimension Tables:
+- Dimension Tables:
 
-Items
+  - Items
 
-Outlets
+  - Outlets
 
 Relationships:
 
-Items → Sales (1:* )
+- Items → Sales (1:* )
 
-Outlets → Sales (1:* )
+- Outlets → Sales (1:* )
 
 🛠️ Tools & Technologies
 
-Power BI Desktop
+- Power BI Desktop
 
-DAX
+- DAX
 
-Power Query (ETL)
+- Power Query (ETL)
 
-Data Modeling
+- Data Modeling
 
-Visualization & UI/UX Design
+- Visualization & UI/UX Design
 
 📸 Dashboard Screenshot
 
